@@ -359,14 +359,14 @@ left: 0;
     grid-template-columns: 1fr 1fr 1fr;
 }
 .box{
-    
+    position: relative;
 }
 .one{
     grid-row: 1/3;
     background-image: url('../img/ad-img1.png');
     background-size: cover;
     background-repeat: no-repeat;
-    min-height: 300px;
+    min-height: 400px;
 }
 
 .two{
@@ -388,5 +388,44 @@ left: 0;
    background-image: url('../img/ad-img5.png');
     background-repeat: no-repeat;
     background-size: cover;
+}
+.lead-text{
+    text-align: center;
+    width: 60%;
+    margin: 0 auto;
+}
+
+.adventure-box-overlay{
+    padding: 32px 16px;
+position: absolute;
+top: 0;
+right: 0;
+bottom: 0;
+left: 0;
+background: rgb(2,0,36);
+background: linear-gradient(270deg, rgba(2,0,36,1) 0%, rgba(80,177,255,1) 0%, rgba(3,14,217,0.7399334733893557) 100%);
+text-align: center;
+color: #fff;
+}
+.adventure-box-overlay a{
+    border: 1px solid blue;
+    padding: 4px 16px;
+}
+
+.adventure-box-overlay-hvr{
+    padding: 32px 16px;
+position: absolute;
+top: 0;
+right: 0;
+bottom: 0;
+left: 0;
+text-align: center;
+color: #fff;
+opacity: 0;
+}
+.adventure-box-overlay-hvr:hover{
+opacity: 1;
+background: rgb(2,0,36);
+background: linear-gradient(270deg, rgba(2,0,36,1) 0%, rgba(80,177,255,1) 0%, rgba(0,128,158,0.7399334733893557) 100%);
 }
 
