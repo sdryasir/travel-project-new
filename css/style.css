@@ -428,4 +428,28 @@ opacity: 1;
 background: rgb(2,0,36);
 background: linear-gradient(270deg, rgba(2,0,36,1) 0%, rgba(80,177,255,1) 0%, rgba(0,128,158,0.7399334733893557) 100%);
 }
+.follow-adventure{
+        background: rgb(2,0,36);
+background: linear-gradient(270deg, rgba(2,0,36,1) 0%, rgba(80,177,255,1) 0%, rgba(0,128,158,0.7399334733893557) 100%);
+}
+.adventure-inner-card{
+    background-color: #fff;
+    padding: 8px 16px;
+    position: relative;
+}
+.adventure-inner-card:hover{
+    background: rgb(2,0,36);
+background: linear-gradient(270deg, rgba(2,0,36,1) 0%, rgba(80,177,255,1) 0%, rgba(0,128,158,0.7399334733893557) 100%);
+color:#fff;
+}
+.adventure-inner-card h4, .adventure-inner-card p{
+    padding-left: 64px;
+    margin-bottom: 0;
+}
+.adventure-inner-card span{
+    font-size: 48px;
+    position: absolute;
+    left: 16px;
+}
+
 
